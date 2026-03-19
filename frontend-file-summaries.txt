@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication flow, role-based routing (admin vs partner), and approval status checks with loading states and proper hook imports.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including partner registration, performance tracking, payout management, and admin functions with proper error handling and cache invalidation.",
+  "frontend/src/components/Header.tsx": "Application header with branding, theme toggle, and logout functionality that adapts based on user role.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with attribution and link to caffeine.ai.",
+  "frontend/src/pages/LoginPage.tsx": "Landing page with hero section, feature highlights, and Internet Identity login for unauthenticated users.",
+  "frontend/src/pages/PartnerRegistration.tsx": "Partner registration form collecting business information for new affiliate applications.",
+  "frontend/src/pages/ApprovalPending.tsx": "Status page showing partner application review state (pending, approved, or rejected) with contextual messaging.",
+  "frontend/src/pages/PartnerDashboard.tsx": "Partner dashboard displaying performance metrics (clicks, conversions, earnings), payout history, and payout request functionality.",
+  "frontend/src/pages/AdminDashboard.tsx": "Admin dashboard with tabs for managing partner approvals, tracking all performance data, recording clicks/conversions, and processing payout requests.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring a professional purple/blue theme for both light and dark modes."
+}
